@@ -9,10 +9,95 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <title>Tech-en</title>
 </head>
-<body class="font-family: 'Poppins', sans-serif;">
+<body style="font-family: 'Poppins', sans-serif;" class="lg:mx-10">
 
-    
-<h1>Hello</h1>
+<!-- Section 1 Design started From Here     -->
+
+<!-- navbar -->
+<div class="navbar bg-base-100">
+    <div class="navbar-start ">
+      <div class="dropdown">
+        <div class="lg:hidden">
+            <label tabindex="0" class="btn btn-ghost">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </label>
+        </div>
+        <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+            <li><a>Home</a></li>
+            <li><a>Courses</a></li>
+            <li><a>Deals</a></li>
+            <li><a>Success</a></li>
+            <li><a>About</a></li>
+            <li><a>Register</a></li>
+        </ul>
+      </div>
+      <a class="normal-case font-bolder text-xl">TECH-EN</a>
+    </div>
+    <div class="navbar-center hidden lg:flex">
+      <ul class="menu menu-horizontal p-0">
+        <li class="mx-3"><a>Home</a></li>
+        <li class="mx-3"><a>Courses</a></li>
+        <li class="mx-3"><a>Deals</a></li>
+        <li class="mx-3"><a>Success</a></li>
+        <li class="mx-3"><a>About</a></li>
+        <li class="mx-3"><a>Register</a></li>
+      </ul>
+    </div>
+    <div class="navbar-end">
+      <a class="btn btn-outline btn-primary">Get started</a>
+    </div>
+  </div>
+<!-- navbar -->
+
+<!-- Home Section -->
+
+  <div>
+    <div class="carousel w-full">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="images/cover/cover-1.png" class="w-full h-screen brightness-50" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-2/4">
+            <a href="#slide3" class="btn btn-circle">❮</a> 
+            <div class="flex flex-col w-1/2">
+                <h1 class="text-6xl text-white text-center font-bold mb-7">Get Started Digital  Learning</h1>
+                <p class="text-white text-center">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                <button class="btn btn-primary w-1/4 mx-auto mt-5">Get Started</button>
+            </div>
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+          <div>
+          </div>
+        </div> 
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="images/cover/cover-2.jpg" class="w-full h-screen brightness-50" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-2/4">
+            <a href="#slide1" class="btn btn-circle">❮</a> 
+            <div class="flex flex-col w-1/2">
+                <h1 class="text-6xl text-white text-center font-bold mb-7">Get Started Digital Learning</h1>
+                <p class="text-white text-center">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                <button class="btn btn-primary w-1/4 mx-auto mt-5">Get Started</button>
+            </div>
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="images/cover/cover-3.jpg" class="w-full h-screen brightness-50" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-2/4">
+            <a href="#slide2" class="btn btn-circle">❮</a> 
+            <div class="flex flex-col w-1/2">
+                <h1 class="text-6xl text-white text-center font-bold mb-7">Get Started Digital  Learning</h1>
+                <p class="text-white text-center">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                <button class="btn btn-primary w-1/4 mx-auto mt-5">Get Started</button>
+            </div>
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+      </div>
+      
+  </div>
+
+<!-- Home Section -->
+
+<!-- Section 1 Design ended Here     -->
 
 
     <!-- CDN Links for Tailwind CSS -->
