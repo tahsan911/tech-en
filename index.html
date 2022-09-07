@@ -14,39 +14,40 @@
 <!-- Section 1 Design started From Here     -->
 
 <!-- navbar -->
-<div class="navbar bg-base-100">
-    <div class="navbar-start ">
-      <div class="dropdown">
-        <div class="lg:hidden">
-            <label tabindex="0" class="btn btn-ghost">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-            </label>
+<section>
+  <div class="navbar bg-base-100">
+      <div class="navbar-start ">
+        <div class="dropdown">
+          <div class="lg:hidden">
+              <label tabindex="0" class="btn btn-ghost">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+              </label>
+          </div>
+          <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Home</a></li>
+              <li><a>Courses</a></li>
+              <li><a>Deals</a></li>
+              <li><a>Success</a></li>
+              <li><a>About</a></li>
+              <li><a>Register</a></li>
+          </ul>
         </div>
-        <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-            <li><a>Home</a></li>
-            <li><a>Courses</a></li>
-            <li><a>Deals</a></li>
-            <li><a>Success</a></li>
-            <li><a>About</a></li>
-            <li><a>Register</a></li>
+        <a class="normal-case font-bolder text-xl">TECH-EN</a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal p-0">
+          <li class="mx-3"><a>Home</a></li>
+          <li class="mx-3"><a>Courses</a></li>
+          <li class="mx-3"><a>Deals</a></li>
+          <li class="mx-3"><a>Success</a></li>
+          <li class="mx-3"><a>About</a></li>
+          <li class="mx-3"><a>Register</a></li>
         </ul>
       </div>
-      <a class="normal-case font-bolder text-xl">TECH-EN</a>
+      <div class="navbar-end">
+        <a class="btn btn-outline btn-primary">Get started</a>
+      </div>
     </div>
-    <div class="navbar-center hidden lg:flex">
-      <ul class="menu menu-horizontal p-0">
-        <li class="mx-3"><a>Home</a></li>
-        <li class="mx-3"><a>Courses</a></li>
-        <li class="mx-3"><a>Deals</a></li>
-        <li class="mx-3"><a>Success</a></li>
-        <li class="mx-3"><a>About</a></li>
-        <li class="mx-3"><a>Register</a></li>
-      </ul>
-    </div>
-    <div class="navbar-end">
-      <a class="btn btn-outline btn-primary">Get started</a>
-    </div>
-  </div>
 <!-- navbar -->
 
 <!-- Home Section -->
@@ -54,52 +55,146 @@
   <div>
     <div class="carousel w-full">
         <div id="slide1" class="carousel-item relative w-full">
-          <img src="images/cover/cover-1.png" class="w-full h-screen brightness-50" />
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-2/4">
-            <a href="#slide3" class="btn btn-circle">❮</a> 
-            <div class="flex flex-col w-1/2">
-                <h1 class="text-6xl text-white text-center font-bold mb-7">Get Started Digital  Learning</h1>
-                <p class="text-white text-center">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                <button class="btn btn-primary w-1/4 mx-auto mt-5">Get Started</button>
+          <img src="images/cover/cover-1.png" class="w-full sm:h-5/6 md:h-auto lg:h-screen brightness-50" />
+          <div class="absolute flex justify-between  -translate-y-3/4  left-5 right-5 top-3/4 lg:top-2/4">
+            <a href="#slide3" class="btn btn-circle hidden lg:block md:block">❮</a> 
+            <div class="flex flex-col w-1/2 h-2/3">
+                <h1 class="text-xl md:text-3xl lg:text-6xl text-white text-center font-bold mb-2 lg:mb-7">Get Started Digital <br> Learning</h1>
+                <p class="text-sm text-white text-center">It is a long established fact that a reader will be distracted by the readable content.</p>
+                <button class="btn btn-primary lg:w-1/4 mx-auto mt-5">Get Started</button>
             </div>
-            <a href="#slide2" class="btn btn-circle">❯</a>
+            <a href="#slide2" class="btn btn-circle sm:hidden lg:block md:block">❯</a>
           </div>
           <div>
           </div>
         </div> 
         <div id="slide2" class="carousel-item relative w-full">
-          <img src="images/cover/cover-2.jpg" class="w-full h-screen brightness-50" />
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-2/4">
-            <a href="#slide1" class="btn btn-circle">❮</a> 
-            <div class="flex flex-col w-1/2">
-                <h1 class="text-6xl text-white text-center font-bold mb-7">Get Started Digital Learning</h1>
-                <p class="text-white text-center">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                <button class="btn btn-primary w-1/4 mx-auto mt-5">Get Started</button>
+          <img src="images/cover/cover-3.jpg" class="w-full sm:h-5/6 md:h-auto lg:h-screen brightness-50" />
+          <div class="absolute flex justify-between -translate-y-3/4  left-5 right-5 top-3/4 lg:top-2/4">
+            <a href="#slide1" class="btn btn-circle hidden lg:block md:block">❮</a> 
+            <div class="flex flex-col w-1/2 h-2/3">
+                <h1 class="text-xl md:text-2xl lg:text-6xl text-white text-center font-bold mb-2 lg:mb-7">Get Started Digital Learning</h1>
+                <p class="text-sm text-white text-center">It is a long established fact that a reader will be distracted by the readable content.</p>
+                <button class="btn btn-primary lg:w-1/4 mx-auto mt-5">Get Started</button>
             </div>
-            <a href="#slide3" class="btn btn-circle">❯</a>
+            <a href="#slide3" class="btn btn-circle sm:hidden lg:block md:block">❯</a>
           </div>
         </div> 
         <div id="slide3" class="carousel-item relative w-full">
-          <img src="images/cover/cover-3.jpg" class="w-full h-screen brightness-50" />
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-2/4">
-            <a href="#slide2" class="btn btn-circle">❮</a> 
-            <div class="flex flex-col w-1/2">
-                <h1 class="text-6xl text-white text-center font-bold mb-7">Get Started Digital  Learning</h1>
-                <p class="text-white text-center">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                <button class="btn btn-primary w-1/4 mx-auto mt-5">Get Started</button>
+          <img src="images/cover/cover-2.jpg" class="w-full sm:h-5/6 md:h-auto lg:h-screen brightness-50" />
+          <div class="absolute flex justify-between -translate-y-3/4  left-5 right-5 top-3/4 lg:top-2/4">
+            <a href="#slide2" class="btn btn-circle hidden lg:block md:block">❮</a> 
+            <div class="flex flex-col w-1/2 h-2/3">
+                <h1 class="text-xl md:text-2xl lg:text-6xl text-white text-center font-bold mb-2 lg:mb-7">Get Started Digital  Learning</h1>
+                <p class="text-sm text-white text-center">It is a long established fact that a reader will be distracted by the readable content.</p>
+                <button class="btn btn-primary lg:w-1/4 mx-auto mt-5">Get Started</button>
             </div>
-            <a href="#slide1" class="btn btn-circle">❯</a>
+            <a href="#slide1" class="btn btn-circle sm:hidden lg:block md:block">❯</a>
           </div>
         </div> 
       </div>
-      
   </div>
+
+</section>
 
 <!-- Home Section -->
 
 <!-- Section 1 Design ended Here     -->
 
+<!-- Section 2 Design Started Here -->
 
+  <section class="my-20">
+    <div>
+      <h1 class="text-3xl text-bold font-bold text-center my-5">Discover Our Popular <br> Courses</h1>
+      <p class="text-center font-light text-grey text-sm my-5">It is a long established fact that a reader will be distracted by the <br> readable content of a page when looking at its layout.</p>
+    </div>
+    <div class="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-5 lg:mx-0 mx-5 mt-10">
+      <div class="flex md:flex-row lg:flex-row flex-col border border-1 border-gray-200 rounded rounded-lg">
+        <img src="images/course/course-1.png" class="w-auto" alt="">
+        <div class="p-5">
+          <h1 class="text-xl font-bold mb-5">Fundamental Of UX/UI Design</h1>
+          <p class="text-sm mb-5 text-gray-500">Some quick example text to build on the card title and make up the bulk of the card.</p>
+          <span class="text-indigo-400">Price: 25$</span>
+        </div>
+      </div>
+      <div class="flex md:flex-row lg:flex-row flex-col border border-1 border-gray-200 rounded rounded-lg">
+        <img src="images/course/course-2.png" class="w-auto" alt="">
+        <div class="p-5">
+          <h1 class="text-xl font-bold mb-5">Javascript Basic to advanced</h1>
+          <p class="text-sm mb-5 text-gray-500">Some quick example text to build on the card title and make up the bulk of the card.</p>
+          <span class="text-indigo-400">Price: 20$</span>
+        </div>
+      </div>
+      <div class="flex md:flex-row lg:flex-row flex-col border border-1 border-gray-200 rounded rounded-lg">
+        <img src="images/course/course-3.png" class="w-auto" alt="">
+        <div class="p-5">
+          <h1 class="text-xl font-bold mb-5">Digital Marketing</h1>
+          <p class="text-sm mb-5 text-gray-500">Some quick example text to build on the card title and make up the bulk of the card.</p>
+          <span class="text-indigo-400">Price: 45$</span>
+        </div>
+      </div>
+      <div class="flex md:flex-row lg:flex-row flex-col border border-1 border-gray-200 rounded rounded-lg">
+        <img src="images/course/course-4.png" class="w-auto" alt="">
+        <div class="p-5">
+          <h1 class="text-xl font-bold mb-5">Fullstack Web Development</h1>
+          <p class="text-sm mb-5 text-gray-500">Some quick example text to build on the card title and make up the bulk of the card.</p>
+          <span class="text-indigo-400">Price: 30$</span>
+        </div>
+      </div>
+      <div class="flex md:flex-row lg:flex-row flex-col border border-1 border-gray-200 rounded rounded-lg">
+        <img src="images/course/course-5.png" class="w-auto" alt="">
+        <div class="p-5">
+          <h1 class="text-xl font-bold mb-5">Photography Basic Rules</h1>
+          <p class="text-sm mb-5 text-gray-500">Some quick example text to build on the card title and make up the bulk of the card.</p>
+          <span class="text-indigo-400">Price: 15$</span>
+        </div>
+      </div>
+      <div class="flex md:flex-row lg:flex-row flex-col border border-1 border-gray-200 rounded rounded-lg">
+        <img src="images/course/course-6.png" class="w-auto" alt="">
+        <div class="p-5">
+          <h1 class="text-xl font-bold mb-5">Motion Graphics</h1>
+          <p class="text-sm mb-5 text-gray-500">Some quick example text to build on the card title and make up the bulk of the card.</p>
+          <span class="text-indigo-400">Price: 50$</span>
+        </div>
+      </div>
+    </div>
+    <div class="w-full text-center my-5">
+      <button class="btn btn-primary text-white">See More Courses</button>
+    </div>
+  </section>
+
+<!-- Section 2 Design ended Here -->
+
+<!-- section 3 design started here -->
+
+  <section class="my-10">
+    <div class="card lg:card-side bg-[#f4fafd] shadow-xl">
+      <figure><img src="images/working.png"  alt="Album"></figure>
+      <div class="p-14">
+        <h2 class="text-3xl font-bold mb-5">Explore The elearning Institute</h2>
+        <p class="text-sm leading-8 my-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure. <br> <br> Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined.</p>
+        <div class="flex align-center my-5">
+          <div class="mr-14">
+            <h1 class="font-bold text-2xl">3.2K+</h1>
+            <p class="text-gray-600 text-sm">Online Courses</p>
+          </div>
+          <div class="mr-14">
+            <h1 class="font-bold text-2xl">600+</h1>
+            <p class="text-gray-600 text-sm">Expert Members</p>
+          </div>
+          <div class="mr-14">
+            <h1 class="font-bold text-2xl">1k+</h1>
+            <p class="text-gray-600 text-sm">Rating & reviews</p>
+          </div>
+        </div>
+        <div class="card-actions justify-start">
+          <button class="bg-[#289BDE] text-white px-8 py-2 rounded rounded-5 hover:bg-[#1776ad]">Read More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- section 3 design ended here -->
     <!-- CDN Links for Tailwind CSS -->
 <link href="https://cdn.jsdelivr.net/npm/daisyui@2.25.0/dist/full.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
